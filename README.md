@@ -13,5 +13,12 @@ Which is apparently a remake of James Pearce's card:<br>
 I am using some of Sergey's Kicad symbols/footprints:<br>
 [Sergey's Kicad symbols](https://github.com/skiselev/my_kicad_library)<br>
 
+Changes requires for internal mounting in the Amstrad PPC:<br>
+[1] The following signals are generated directly from the internal gate arrays and should be buffered with a non-inverting buffer (i.e. 72HC244): A00 to A07, !MEMW, !MEMR, !IOW, !IOR, RESET<br>
+_(there are others but irrelevant for our purposes)_<br>
+[2] The data signals (D0 to D7) are at CMOS levels and should be pulled up to TTL levels with 10KΩ resistors<br>
+[3] The internal modem board we are replacing is roughly 200x120mm<br>
+[4] Technically the PPC should be powered by the "expansion unit" and not the other way around ... don't tell anyone<br>
+
 Currently untested ...<br><br>
 ![Amstrad_PPC_Internal_CF_Lite](https://github.com/0ddjob/Amstrad_PPC_XT_CF_Lite/assets/24483449/a85d3c3c-d648-4215-85a8-f250ed2f8e1f)
