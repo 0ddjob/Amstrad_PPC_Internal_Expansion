@@ -21,4 +21,4 @@ _(there are others but irrelevant for our purposes)_<br>
 [4] Technically the PPC should be powered by the "expansion unit" and not the other way around ... don't tell anyone<br>
 
 Currently untested ...<br><br>
-![Amstrad_PPC_Internal_CF_Lite](https://github.com/0ddjob/Amstrad_PPC_XT_CF_Lite/assets/24483449/a85d3c3c-d648-4215-85a8-f250ed2f8e1f)
+![Amstrad_PPC_Internal_CF_Lite](Amstrad_PPC_Internal_PCB.png)
